@@ -1,17 +1,27 @@
 {
   "name": "bootstrapwork",
   "version": "1.0.0",
-  "description": "Some work with bootstrap things",
+  "description": "Some self-learning-assignment work with bootstrap things",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified (Dunno)\" && exit 1"
+    "test": "jshint . --exclude node_modules && echo \"Error: no test specified (Dunno)\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
     "popper": "^1.0.1",
     "sass": "^1.26.8"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jshint": "^2.11.1",
+    "mocha": "^7.2.0",
+    "sinon": "^9.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }
