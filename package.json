@@ -1,0 +1,17 @@
+{
+  "name": "bootstrapwork",
+  "version": "1.0.0",
+  "description": "Some work with bootstrap things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified (Dunno)\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "sass": "^1.26.8"
+  }
+}
