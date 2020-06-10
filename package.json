@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "jshint . --exclude node_modules && echo \"Error: no test specified (Dunno)\" && exit 1"
+    "test": "jshint . --exclude node_modules && echo \"Error: no test specified (Dunno)\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +18,12 @@
     "sass": "^1.26.8"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.0",
     "chai": "^4.2.0",
     "jshint": "^2.11.1",
     "mocha": "^7.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
     "sinon": "^9.0.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"

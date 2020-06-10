@@ -31,3 +31,16 @@ Spies, stubs and fakes.
 
 https://ponyfoo.com/articles/choose-grunt-gulp-or-npm
 This is valuable.
+
+####  Is RxJS really worth it? 
+--> Keep that for the future, this is complex enough.
+
+#### Notes
+
+- Webpack
+Used to package all JS requirements for the website (https://webpack.js.org/concepts/). Not necessary for very small sites.
+
+##### Progress
+
+- Added a dist folder on the root level, for exporting the built site (referenced in the webpack config)
+- Added the webpack config on the root level, next to the package.json
