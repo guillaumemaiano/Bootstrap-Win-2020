@@ -34,12 +34,12 @@ module.exports = {
           {
             test: /\.((s[ac]|c)ss)$/,
             use: [
-              /*{
+              {
                 loader: plugins.extractCSS.loader,
                 options: {
                   publicPath: '../' // use relative path for everything in CSS
                 }
-              },*/
+              },
               {
                 loader: 'css-loader',
                 options: {
@@ -79,3 +79,7 @@ module.exports = {
         ]
     }
 };
+
+module.exports.plugins = [
+  new plugins.extractCSS(),
+];
