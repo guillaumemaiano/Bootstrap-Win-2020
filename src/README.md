@@ -11,6 +11,7 @@ Experimenting with modern webdev from Windows (WSL+VS Code)
 
 ### Folder structure
 &rightarrow; https://hackernoon.com/bootstrap-framework-best-practises-b1d81c02d6cf
+Note: I'm not sure how valuable this is, since so many assumptions are made, and even some instructions seem contradictory or doubled.
 
 ## Testing
 
@@ -44,3 +45,5 @@ Used to package all JS requirements for the website (https://webpack.js.org/conc
 
 - Added a dist folder on the root level, for exporting the built site (referenced in the webpack config)
 - Added the webpack config on the root level, next to the package.json
+- Quickly read through https://github.com/dvlden/webpack-config/blob/master/webpack.config.js. Overly complex, but I see now how the file is structured.
+- Read through https://getbootstrap.com/docs/4.5/getting-started/webpack/. This is another set of horrifying documentation. Yes, I see what they mean now, but only because I muddied on for two days. Do the people who work on the documentation have a clue what this rare species, the noob, even exists? RTFM only works if TFM makes sense for the noob. Or I'm just too old and dumb for this.
