@@ -1,7 +1,7 @@
 const path = require('path');
 
 // Minification
-//const minJSON = require('jsonMinify');
+const minJSON = require('jsonminify');
 
 
 const plugins = {
