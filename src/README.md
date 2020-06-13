@@ -47,3 +47,5 @@ Used to package all JS requirements for the website (https://webpack.js.org/conc
 - Added the webpack config on the root level, next to the package.json
 - Quickly read through https://github.com/dvlden/webpack-config/blob/master/webpack.config.js. Overly complex, but I see now how the file is structured.
 - Read through https://getbootstrap.com/docs/4.5/getting-started/webpack/. This is another set of horrifying documentation. Yes, I see what they mean now, but only because I muddied on for two days. Do the people who work on the documentation have a clue what this rare species, the noob, even exists? RTFM only works if TFM makes sense for the noob. Or I'm just too old and dumb for this.
+- Webpacked this fabulous SCSS page: Black on white text!
+- Read through https://blog.jakoblind.no/css-modules-webpack/ which explains a bit of theory
