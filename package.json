@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "jshint . --exclude node_modules && echo \"Error: no test specified (Dunno)\" && exit 1",
+    "lint": "jshint . --exclude node_modules",
+    "test": " mocha tests --recursive --reporter landing --timeout 60000 --exit",
     "build": "webpack --config webpack.config.js"
   },
   "author": "",
@@ -23,6 +24,7 @@
     "chai": "^4.2.0",
     "css-loader": "^3.5.3",
     "cssnano": "^4.1.10",
+    "express": "^4.17.1",
     "fibers": "^5.0.0",
     "jshint": "^2.11.1",
     "jsonminify": "^0.4.1",
@@ -32,6 +34,7 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^8.0.2",
     "sinon": "^9.0.2",
+    "supertest": "^4.0.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }
